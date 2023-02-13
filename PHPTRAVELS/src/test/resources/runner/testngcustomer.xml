@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">  
+<test thread-count="5" name="Customer LoginTest">
+   <classes>
+      <class name="com.phptravels.customerscripts.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="View Voucher Test">
+   <classes>
+      <class name="com.phptravels.customerscripts.ViewVoucherTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="LeftSide Link Test">
+   <classes>
+      <class name="com.phptravels.customerscripts.LeftSideLinksTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="UpdateAddressTest">
+   <classes>
+      <class name="com.phptravels.customerscripts.UpdateAddressTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="PayMent PayPal Test">
+   <classes>
+      <class name="com.phptravels.customerscripts.PaymentPayPalTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Customer Logout Test">
+   <classes>
+      <class name="com.phptravels.customerscripts.LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+   <test name="Left Side Link Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.LeftsideLinksTest"/>
+    </classes>
+  </test> 
+  
+   <test name="Nav Link Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.NavLinksTest"/>
+    </classes>
+  </test> 
+  
+  <test name="Currency Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.CurrencyUSD_INRTest"/>
+    </classes>
+  </test> 
+  
+   <test name="Search Hotel Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.SearchHotelTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.AgentLoginTest"/>  
+    </classes>   
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name=" DashboardTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.DashboardTest"/>
+    </classes>
+ </test> <!-- Test -->
+ 
+  <test thread-count="5" name=" LeftsideLinksTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.LeftSideLinkTest"/>
+    </classes>
+    </test>   
+    
+  <test thread-count="5" name=" RevenueBreakdownDisplayTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.RevenueBreakdownDisplayTest"/>
+    </classes>
+    </test>
+    
+    <test thread-count="5" name=" BookPendConfirmTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.BookPendConfirmTest"/>
+    </classes>
+    </test>
+    
+    <test thread-count="5" name="SupplierLogoutTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.SupplierLogoutTest"/>
+    </classes>
+    </test>
+     <test thread-count="5" name="SupplierLoginTest">
+  <classes>
+      <class name="com.phptravels.supplierscripts.SupplierLoginTest"/>
+    </classes>
+    </test>
+    
+    
+
+    
+  
+  
+  <test thread-count="5" name="Admin Logout Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Admin  success Invoice Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.InvoiceSuccessTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Delete Cance Booking Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.BookCancelDeleteTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Pending to Confirm Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.BookPendConfirmTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test thread-count="5" name="Admin Website Link Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.WebsiteLinkTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Admin Login Test">
+    <classes>
+      <class name="com.phptravels.adminscripts.AdminLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

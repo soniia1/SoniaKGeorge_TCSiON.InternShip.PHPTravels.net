@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" BookPendConfirmTest(failed)">
+    <classes>
+      <class name="com.phptravels.supplierscripts.BookPendConfirmTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login"/>
+          <include name="dashboard"/>
+          <include name="logout"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.phptravels.supplierscripts.BookPendConfirmTest -->
+    </classes>
+  </test> <!--  BookPendConfirmTest(failed) -->
+  <test thread-count="5" name="Admin  success Invoice Test(failed)">
+    <classes>
+      <class name="com.phptravels.adminscripts.InvoiceSuccessTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="bookInvoice"/>
+          <include name="Login"/>
+          <include name="logout"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.phptravels.adminscripts.InvoiceSuccessTest -->
+    </classes>
+  </test> <!-- Admin  success Invoice Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

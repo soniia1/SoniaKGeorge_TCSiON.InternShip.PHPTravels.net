@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+   <test name="Left Side Link Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.LeftsideLinksTest"/>
+    </classes>
+  </test> 
+  
+   <test name="Nav Link Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.NavLinksTest"/>
+    </classes>
+  </test> 
+  
+  <test name="Currency Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.CurrencyUSD_INRTest"/>
+    </classes>
+  </test> 
+  
+   <test name="Search Hotel Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.SearchHotelTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.phptravels.agentscripts.AgentLoginTest"/>  
+    </classes>   
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->
