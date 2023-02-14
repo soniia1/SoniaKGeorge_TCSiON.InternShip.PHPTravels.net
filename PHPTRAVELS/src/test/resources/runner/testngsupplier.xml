@@ -2,9 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<test thread-count="5" name=" SupplierLogoutTest">
+
+<test thread-count="5" name=" SupplierLogintTest">
   <classes>
-      <class name="com.phptravels.supplierscripts.SupplierLogoutTest"/>
+      <class name="com.phptravels.supplierscripts.SupplierLoginTest"/>
     </classes>
  </test> <!-- Test -->
 
@@ -26,16 +27,9 @@
     </classes>
     </test>
     
-    <test thread-count="5" name=" BookPendConfirmTest">
-  <classes>
-      <class name="com.phptravels.supplierscripts.BookPendConfirmTest"/>
-    </classes>
-    </test>
-    
-    <test thread-count="5" name="SupplierLogoutTest">
+     <test thread-count="5" name="SupplierLogoutTest">
   <classes>
       <class name="com.phptravels.supplierscripts.SupplierLogoutTest"/>
     </classes>
     </test>
-    
 </suite> <!-- Suite -->

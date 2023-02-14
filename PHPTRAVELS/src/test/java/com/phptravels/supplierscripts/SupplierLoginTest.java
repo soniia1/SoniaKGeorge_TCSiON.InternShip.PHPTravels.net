@@ -15,6 +15,7 @@ import com.phptravels.base.BaseTest;
 import com.phptravels.supplierpages.SupplierLoginPage;
 import com.phptravels.utilities.DP;
 import com.phptravels.utilities.Excelutility;
+import com.phptravels.utilities.Logoututility;
 
 public class SupplierLoginTest extends BaseTest {
 	
@@ -47,6 +48,7 @@ public class SupplierLoginTest extends BaseTest {
 			
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 		assertTrue(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[text()='Website']"))).isDisplayed());
+		Logoututility.supplierlogout();
 		}
 
 }

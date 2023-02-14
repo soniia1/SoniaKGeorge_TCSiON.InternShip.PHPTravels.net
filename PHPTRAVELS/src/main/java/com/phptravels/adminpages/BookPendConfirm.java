@@ -53,6 +53,7 @@ public class BookPendConfirm extends BaseTest {
 	
 			pendbook.click();
 			driver.switchTo().alert().accept();
+			//driver.switchTo().alert().accept();
 		
 	}
 	
@@ -61,7 +62,7 @@ public class BookPendConfirm extends BaseTest {
 		
 		Select sel=new Select(pending);
 		sel.selectByVisibleText("Confirmed");
-		//driver.switchTo().alert().accept();
+		driver.switchTo().alert().accept();
 		
 	}
 	public boolean clickDashBoard() {

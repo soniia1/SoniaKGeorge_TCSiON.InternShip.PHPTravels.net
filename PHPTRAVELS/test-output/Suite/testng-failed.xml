@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name=" BookPendConfirmTest(failed)">
+  <test thread-count="5" name=" SupplierLogintTest(failed)">
     <classes>
-      <class name="com.phptravels.supplierscripts.BookPendConfirmTest">
+      <class name="com.phptravels.supplierscripts.SupplierLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyValidLogin"/>
+          <include name="verifyInvalidLogin2"/>
+          <include name="loginObject"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.phptravels.supplierscripts.SupplierLoginTest -->
+    </classes>
+  </test> <!--  SupplierLogintTest(failed) -->
+  <test thread-count="5" name=" DashboardTest(failed)">
+    <classes>
+      <class name="com.phptravels.supplierscripts.DashboardTest">
         <methods>
           <include name="tearDown"/>
           <include name="Login"/>
@@ -11,20 +24,45 @@
           <include name="logout"/>
           <include name="onSetup"/>
         </methods>
-      </class> <!-- com.phptravels.supplierscripts.BookPendConfirmTest -->
+      </class> <!-- com.phptravels.supplierscripts.DashboardTest -->
     </classes>
-  </test> <!--  BookPendConfirmTest(failed) -->
-  <test thread-count="5" name="Admin  success Invoice Test(failed)">
+  </test> <!--  DashboardTest(failed) -->
+  <test thread-count="5" name=" LeftsideLinksTest(failed)">
     <classes>
-      <class name="com.phptravels.adminscripts.InvoiceSuccessTest">
+      <class name="com.phptravels.supplierscripts.LeftSideLinkTest">
         <methods>
           <include name="tearDown"/>
-          <include name="bookInvoice"/>
-          <include name="Login"/>
+          <include name="leftSideLink"/>
           <include name="logout"/>
           <include name="onSetup"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.phptravels.adminscripts.InvoiceSuccessTest -->
+      </class> <!-- com.phptravels.supplierscripts.LeftSideLinkTest -->
     </classes>
-  </test> <!-- Admin  success Invoice Test(failed) -->
+  </test> <!--  LeftsideLinksTest(failed) -->
+  <test thread-count="5" name=" RevenueBreakdownDisplayTest(failed)">
+    <classes>
+      <class name="com.phptravels.supplierscripts.RevenueBreakdownDisplayTest">
+        <methods>
+          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="revBkDwnDisplay"/>
+          <include name="onSetup"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.phptravels.supplierscripts.RevenueBreakdownDisplayTest -->
+    </classes>
+  </test> <!--  RevenueBreakdownDisplayTest(failed) -->
+  <test thread-count="5" name="SupplierLogoutTest(failed)">
+    <classes>
+      <class name="com.phptravels.supplierscripts.SupplierLogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logout"/>
+          <include name="Login"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.phptravels.supplierscripts.SupplierLogoutTest -->
+    </classes>
+  </test> <!-- SupplierLogoutTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

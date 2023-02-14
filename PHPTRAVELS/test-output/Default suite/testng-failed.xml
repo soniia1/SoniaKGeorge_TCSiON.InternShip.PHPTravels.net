@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.phptravels.adminscripts.BookPendConfirmTest">
+      <class name="com.phptravels.adminscripts.InvoiceSuccessTest">
         <methods>
           <include name="tearDown"/>
+          <include name="bookInvoice"/>
           <include name="Login"/>
-          <include name="dashboard"/>
+          <include name="logout"/>
           <include name="onSetup"/>
         </methods>
-      </class> <!-- com.phptravels.adminscripts.BookPendConfirmTest -->
+      </class> <!-- com.phptravels.adminscripts.InvoiceSuccessTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
