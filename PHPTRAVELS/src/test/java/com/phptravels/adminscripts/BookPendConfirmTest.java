@@ -30,12 +30,12 @@ public class BookPendConfirmTest extends BaseTest {
 	assertTrue(actual);
 	}
 	}
-//	@AfterMethod
-//	public void logout() {
-//		
-//     Logoututility.adminlogout();
-//		
-//	}
+	@AfterMethod
+	public void logout() {
+		
+     Logoututility.adminlogout();
+		
+	}
 
 
 

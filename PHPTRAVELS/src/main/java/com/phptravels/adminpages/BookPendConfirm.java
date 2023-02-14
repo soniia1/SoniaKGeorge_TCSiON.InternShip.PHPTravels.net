@@ -52,8 +52,8 @@ public class BookPendConfirm extends BaseTest {
 	public void clickPendBook() {
 	
 			pendbook.click();
-			driver.switchTo().alert().accept();
 			//driver.switchTo().alert().accept();
+			
 		
 	}
 	
