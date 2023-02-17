@@ -28,6 +28,7 @@ public class SearchHotelPage extends BaseTest {
 	private WebElement cityname;
 	@FindBy(xpath = "//button[@id='submit']")
 	private WebElement search ;
+	
 	@FindBy(xpath = "//button[@type='button'][text()='Modify Search']")
 	private WebElement amodifysearch ;
 	@FindBy(xpath = "//*[@class='btn btn-primary dropdown-toggle waves-effect']")
@@ -39,7 +40,7 @@ public class SearchHotelPage extends BaseTest {
 	{
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	}
 	public void clickHotel() {
 		hotel.click();

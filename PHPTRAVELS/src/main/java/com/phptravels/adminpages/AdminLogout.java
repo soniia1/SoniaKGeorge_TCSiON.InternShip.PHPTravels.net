@@ -29,6 +29,7 @@ public class AdminLogout extends BaseTest
 		person.click();
 	}
 	public String clicklogout() {
+		logout.click();
 	   	return driver.getCurrentUrl();
 	}
 	

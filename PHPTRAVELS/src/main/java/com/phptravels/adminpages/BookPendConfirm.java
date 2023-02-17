@@ -1,6 +1,5 @@
 package com.phptravels.adminpages;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -62,7 +61,7 @@ public class BookPendConfirm extends BaseTest {
 		
 		Select sel=new Select(pending);
 		sel.selectByVisibleText("Confirmed");
-		driver.switchTo().alert().accept();
+		//driver.switchTo().alert().accept();
 		
 	}
 	public boolean clickDashBoard() {

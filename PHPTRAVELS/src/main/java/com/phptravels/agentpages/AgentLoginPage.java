@@ -16,16 +16,6 @@ public class AgentLoginPage extends BaseTest {
 	private WebElement password;
 	@FindBy(xpath = "//span[text()='Login']")
 	private WebElement login;
-	@FindBy(xpath = "//a[@class=' waves-effect'][text()=' My Bookings']")
-	private WebElement booking;
-	@FindBy(xpath = "//a[@class=' waves-effect'][text()=' Add Funds']")
-	private WebElement addfunds;
-	@FindBy(xpath = "//input[@id='gateway_paypal']")
-	private WebElement paypal;
-	@FindBy(xpath = "//button[@type='submit']")
-	private WebElement paynow;
-	
-	
 	
 	
 	 public AgentLoginPage(WebDriver driver) {
@@ -46,12 +36,6 @@ public class AgentLoginPage extends BaseTest {
     public void clickLogin() {
     	login.click();
     	
-    }
-public void clickAddFund() {
-       	
-    	addfunds.click();
-    	paypal.click();
-    	paynow.click();
     }
 
 

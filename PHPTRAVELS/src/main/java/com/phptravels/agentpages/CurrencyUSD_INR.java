@@ -10,7 +10,7 @@ import com.phptravels.base.BaseTest;
 
 public class CurrencyUSD_INR extends BaseTest {
 	
-	//@FindBy(xpath = "//*[@class='btn btn-default dropdown-toggle waves-effect' and @ id='currency']")
+
 	@FindBy(xpath="//button[@id='currency'][contains(text(),'USD')]")
 	private WebElement USD ;
 	//@FindBy(xpath = "//a[@href='https://phptravels.net/currency-INR'][contains(text(),' INR')]")

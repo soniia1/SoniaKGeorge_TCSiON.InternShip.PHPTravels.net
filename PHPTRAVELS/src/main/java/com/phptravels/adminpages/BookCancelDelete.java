@@ -23,6 +23,8 @@ public class BookCancelDelete extends BaseTest{
 	private WebElement rows;
 	@FindBy(xpath = "//table[@id='data']/tbody/tr")
 	private WebElement cols;
+	@FindBy(xpath = "//*[contains(text(),'Dashboard')]")
+	private WebElement dashboard;
 	
 	public BookCancelDelete(WebDriver driver)
 	{
@@ -59,7 +61,9 @@ public class BookCancelDelete extends BaseTest{
 				   alertMsg=alert.getText();
 					System.out.println("msg="+alertMsg);
 					alert.dismiss();
+					dashboard.click();
 					//alert.accept();
+					
 							
 			}
 				else {

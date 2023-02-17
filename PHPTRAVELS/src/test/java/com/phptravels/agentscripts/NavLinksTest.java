@@ -19,7 +19,7 @@ public class NavLinksTest extends BaseTest {
 	@BeforeMethod
 	public void Login() throws IOException {
 		Loginutility.Agentlogin();
-		//Loginutility.customerlogin();
+		
 	}
 	
 	@Test

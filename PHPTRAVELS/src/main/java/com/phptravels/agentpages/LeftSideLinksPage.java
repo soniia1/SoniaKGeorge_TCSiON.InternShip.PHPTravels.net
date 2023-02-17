@@ -34,7 +34,7 @@ public class LeftSideLinksPage  extends BaseTest {
 	{
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	}
 	public boolean clickBookings() {
 	   	

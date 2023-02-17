@@ -25,8 +25,7 @@ public class NavLinksPage extends BaseTest {
 	private WebElement Blog;
 	@FindBy (xpath = "//*[text()='Offers']")
 	private WebElement Offers;
-	//@FindBy(xpath = "//span[@id='select2-from_country-container']")
-	@FindBy(xpath="//button[@id='flights-search']")
+    @FindBy(xpath="//button[@id='flights-search']")
 	private WebElement affrom ;
 	@FindBy(xpath = "//span[@id='select2-hotels_city-container']")
 	private WebElement ahcity ;
@@ -44,7 +43,7 @@ public class NavLinksPage extends BaseTest {
 	{
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	}
 	
 	public boolean clickFlight() {

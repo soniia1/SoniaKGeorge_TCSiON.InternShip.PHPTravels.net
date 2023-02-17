@@ -14,6 +14,7 @@ public class ViewVoucherPage extends BaseTest {
 	private WebElement viewvoucher;
 	@FindBy(xpath = "//button[@id='download']")
 	private WebElement download;
+	
 	public ViewVoucherPage(WebDriver driver) {
 		BaseTest.driver=driver;
 		PageFactory.initElements(driver, this);

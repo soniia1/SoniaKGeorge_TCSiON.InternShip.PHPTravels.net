@@ -19,7 +19,7 @@ public class PaymentPayPalPage extends BaseTest {
 	 public PaymentPayPalPage (WebDriver driver) {
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	 }
 	 public void clickAddFund() throws InterruptedException {
 	       	

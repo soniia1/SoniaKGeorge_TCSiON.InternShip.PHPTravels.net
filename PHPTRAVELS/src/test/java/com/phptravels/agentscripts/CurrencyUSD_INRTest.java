@@ -19,7 +19,7 @@ public class CurrencyUSD_INRTest extends BaseTest {
 	@BeforeMethod
 	public void Login() throws IOException {
 		Loginutility.Agentlogin();
-		//Loginutility.customerlogin();
+		
 	}
 	@Test
 	public void Currency() {
