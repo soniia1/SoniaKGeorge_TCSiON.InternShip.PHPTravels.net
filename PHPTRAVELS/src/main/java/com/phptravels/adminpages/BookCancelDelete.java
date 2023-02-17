@@ -59,7 +59,6 @@ public class BookCancelDelete extends BaseTest{
 				Alert alert=driver.switchTo().alert();
 				   alertMsg=alert.getText();
 					System.out.println("msg="+alertMsg);
-					//alert.dismiss();
 					alert.accept();
 					dashboard.click();
 							
