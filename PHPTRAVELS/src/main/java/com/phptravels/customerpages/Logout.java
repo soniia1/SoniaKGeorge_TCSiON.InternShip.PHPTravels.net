@@ -18,7 +18,7 @@ public class Logout extends BaseTest {
 	{
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	}
 	
 	public String clickLogout() {

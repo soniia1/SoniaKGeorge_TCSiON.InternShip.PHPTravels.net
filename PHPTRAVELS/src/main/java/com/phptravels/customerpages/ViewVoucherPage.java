@@ -18,7 +18,7 @@ public class ViewVoucherPage extends BaseTest {
 	public ViewVoucherPage(WebDriver driver) {
 		BaseTest.driver=driver;
 		PageFactory.initElements(driver, this);
-		CustomerAgentUrl();
+	
 	}
 	public void clickBookings() { 	
     	booking.click();

@@ -31,7 +31,7 @@ public class UpdateAddressPage extends BaseTest {
 	{
 		 BaseTest.driver=driver;
 		 PageFactory.initElements(driver,this);
-		 CustomerAgentUrl();
+		 
 	}
 	
 	 public void clickProfile() {

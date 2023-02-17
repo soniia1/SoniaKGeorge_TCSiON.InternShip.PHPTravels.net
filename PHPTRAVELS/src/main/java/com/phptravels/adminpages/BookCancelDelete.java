@@ -52,22 +52,20 @@ public class BookCancelDelete extends BaseTest{
 			
 			if (rowCount>=1) {
 				
-				System.out.println("hai");
-				if(rowCount>1 && colCount>1)
+				if(rowCount>=1 && colCount>1)
 				{
 			
 				deleteicon.click();
 				Alert alert=driver.switchTo().alert();
 				   alertMsg=alert.getText();
 					System.out.println("msg="+alertMsg);
-					alert.dismiss();
+					//alert.dismiss();
+					alert.accept();
 					dashboard.click();
-					//alert.accept();
-					
 							
 			}
 				else {
-					System.out.println("No Record in the Cancel Booking");
+					System.out.println("No Record  in Cancel Booking");
 				}
 			}
 		} catch (Exception e) {
