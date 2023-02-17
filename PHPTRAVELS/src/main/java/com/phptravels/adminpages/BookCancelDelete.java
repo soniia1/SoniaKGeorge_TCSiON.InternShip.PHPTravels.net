@@ -64,12 +64,12 @@ public class BookCancelDelete extends BaseTest{
 							
 			}
 				else {
-					System.out.println("No Record in Cancel Booking List");
+					System.out.println("No Records in Cancel Booking List");
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("No Record in the List");
+			System.out.println("No Records in the List");
 		}
 		
 	   return alertMsg;
