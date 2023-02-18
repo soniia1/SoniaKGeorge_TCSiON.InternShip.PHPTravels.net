@@ -13,7 +13,7 @@ import com.phptravels.base.BaseTest;
 
 public class BookCancelDelete extends BaseTest{
 	
-	//@FindBy(xpath = "[//*[text()='Cancelled Bookings']")
+
 	@FindBy(xpath = "//div[@class='card-text'][text()='Cancelled Bookings']")
 	private WebElement cancelbook;
 	@FindBy (xpath="//*[@id=\"data\"]/tbody/tr[1]/td[15]/button")
