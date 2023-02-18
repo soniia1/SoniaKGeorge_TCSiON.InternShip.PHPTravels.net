@@ -18,7 +18,6 @@ public class BookPendConfirm extends BaseTest {
 	private WebElement pendcount ;
 	@FindBy(xpath="//*[text()='Confrimed Bookings']//preceding::div[1]")
 	private WebElement confirmcount;
-	//@FindBy(xpath="//*[text()='Dashboard']")
 	@FindBy(xpath="//*[text()='Dashboard']//parent::a")
 	private WebElement dashboard;
 	
